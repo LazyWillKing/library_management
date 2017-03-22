@@ -11,6 +11,7 @@
     }
 }else{
     $data = array();
+    //如果书籍为空，跳出
     echo "<script>alert('没有被借的书');window.location.href='library.php';</script>";
 }
 
